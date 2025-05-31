@@ -41,7 +41,7 @@ CREATE TABLE Sach (
     NamXuatBan INT,
     MaNXB VARCHAR(10) FOREIGN KEY REFERENCES NhaXuatBan(MaNXB),
     TinhTrang NVARCHAR(50) CHECK (TinhTrang IN (N'Còn hàng', N'Hết hàng', N'Ngưng bán')) NOT NULL,
-    SoLuongTon INT check(SoLuongTon >= 0)
+    SoLuongTon INT check(SoLuongTon >= 0),
     IsDeleted BIT DEFAULT 0
 );
 
