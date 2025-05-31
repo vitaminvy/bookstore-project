@@ -1,0 +1,28 @@
+@page
+@model QuanLyNhaSach.Pages.Sach.CreateTheLoaiModel
+
+<h2>📚 Thêm Thể Loại Mới</h2>
+
+@if (!string.IsNullOrEmpty(Model.ThongBao))
+{
+    <div class="alert alert-info">@Model.ThongBao</div>
+}
+
+<form method="post">
+    <div class="mb-3">
+        <label>Mã thể loại</label>
+        <input asp-for="MaTheLoai" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Tên thể loại</label>
+        <input asp-for="TenTheLoai" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Mô tả</label>
+        <textarea asp-for="MoTa" class="form-control" rows="3"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">➕ Thêm thể loại</button>
+</form>

@@ -1,0 +1,169 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QuanLyNhaSach
+build_property.RootNamespace = QuanLyNhaSach
+build_property.ProjectDir = C:\Users\dinhl\OneDrive\Desktop\IE103-QLNS\QuanLyNhaSach\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dinhl\OneDrive\Desktop\IE103-QLNS\QuanLyNhaSach
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Backup/CreateBackup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFja3VwXENyZWF0ZUJhY2t1cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/HoaDon/CreateHoaDon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9hRG9uXENyZWF0ZUhvYURvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/KhachHang/CreateKhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2hhY2hIYW5nXENyZWF0ZUtoYWNoSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/KhuyenMai/CreateKhuyenMai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2h1eWVuTWFpXENyZWF0ZUtodXllbk1haS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/KhuyenMai/DeleteKhuyenMai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2h1eWVuTWFpXERlbGV0ZUtodXllbk1haS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/KhuyenMai/EditKhuyenMai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2h1eWVuTWFpXEVkaXRLaHV5ZW5NYWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/KhuyenMai/IndexKhuyenMai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2h1eWVuTWFpXEluZGV4S2h1eWVuTWFpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/NhanVien/CreateNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmhhblZpZW5cQ3JlYXRlTmhhblZpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/NhanVien/DeleteNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmhhblZpZW5cRGVsZXRlTmhhblZpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/NhanVien/EditNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmhhblZpZW5cRWRpdE5oYW5WaWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/NhanVien/Log.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmhhblZpZW5cTG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Nhap/ImportAllTables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmhhcFxJbXBvcnRBbGxUYWJsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Sach/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FjaFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Sach/CreateTacGia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FjaFxDcmVhdGVUYWNHaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Sach/CreateTheLoai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FjaFxDcmVhdGVUaGVMb2FpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Sach/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FjaFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Sach/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FjaFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Sach/Import.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FjaFxJbXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Sach/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FjaFxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Sach/ViewHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FjaFxWaWV3SGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/TestConnection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdENvbm5lY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/TheLoai/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhlTG9haVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/TheLoai/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhlTG9haVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/TonKho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9uS2hvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Xuat/ExportAllTables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWHVhdFxFeHBvcnRBbGxUYWJsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-p2t9v9o9g6

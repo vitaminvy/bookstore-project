@@ -1,0 +1,8 @@
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net8.0/QuanLyNhaSach.csproj.AssemblyReference.cache
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net8.0/QuanLyNhaSach.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net8.0/QuanLyNhaSach.AssemblyInfoInputs.cache
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net8.0/QuanLyNhaSach.AssemblyInfo.cs
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net8.0/QuanLyNhaSach.csproj.CoreCompileInputs.cache
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net8.0/QuanLyNhaSach.MvcApplicationPartsAssemblyInfo.cache
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net8.0/QuanLyNhaSach.RazorAssemblyInfo.cache
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net8.0/QuanLyNhaSach.RazorAssemblyInfo.cs

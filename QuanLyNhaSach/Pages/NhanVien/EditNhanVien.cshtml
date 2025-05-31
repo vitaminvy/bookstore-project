@@ -1,0 +1,113 @@
+@page
+@model QuanLyNhaSach.Pages.NhanVien.EditNhanVienModel
+@{
+    ViewData["Title"] = "Sửa thông tin nhân viên"; // Thêm Title cho trang
+}
+
+<h2>✏️ Sửa thông tin nhân viên</h2>
+
+@* Hiển thị thông báo thành công hoặc lỗi chung từ Model hoặc TempData *@
+@if (!string.IsNullOrEmpty(Model.SuccessMessage))
+{
+    <div class="alert alert-success">@Model.SuccessMessage</div>
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (!string.IsNullOrEmpty(Model.PageErrorMessage))
+{
+    <div class="alert alert-danger">@Model.PageErrorMessage</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+
+@if (!Model.NhanVienDaChon)
+{
+    <form method="get">
+        @* Form này dùng GET để chọn nhân viên *@
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+        <div class="input-group mb-3">
+            @* SỬA ĐỔI CHÍNH Ở ĐÂY:
+                - Sử dụng asp-for="MaNV" để liên kết với thuộc tính MaNV trong Model (sẽ chứa mã nhân viên được chọn).
+                - Sử dụng asp-items="Model.AllNhanVienSelectList" để tự động tạo các <option>
+                  từ danh sách SelectListItem trong Model.
+                - name="id" được giữ lại để khi submit form GET này, giá trị MaNV đã chọn sẽ được gửi lên server
+                  dưới dạng query parameter 'id', khớp với tham số 'string? id' của OnGetAsync.
+            *@
+            <select name="id" asp-for="MaNV" asp-items="Model.AllNhanVienSelectList" class="form-select">
+                @* Mục "-- Chọn nhân viên --" đã được thêm vào AllNhanVienSelectList trong file .cs *@
+            </select>
+            <button type="submit" class="btn btn-primary ms-2">Chọn</button>
+        </div>
+        <span asp-validation-for="MaNV" class="text-danger"></span> @* Hiển thị lỗi nếu MaNV không được chọn (cần [Required] trong Model nếu bắt buộc chọn trước khi submit) *@
+    </form>
+}
+
+@if (Model.NhanVienDaChon) // Chỉ hiển thị form sửa chi tiết khi đã chọn nhân viên
+{
+    <hr class="my-4" />
+    <h4>Thông tin chi tiết của: @Model.HoTen (@Model.MaNV)</h4>
+    <form method="post">
+        @* Form này dùng POST để cập nhật thông tin *@
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+        <input type="hidden" asp-for="MaNV" /> @* Giữ lại MaNV để biết đang sửa nhân viên nào *@
+
+        <div class="mb-3">
+            <label asp-for="HoTen" class="form-label">Họ tên</label>
+            <input asp-for="HoTen" class="form-control" />
+            <span asp-validation-for="HoTen" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ChucVu" class="form-label">Chức vụ</label>
+            <select asp-for="ChucVu" class="form-select">
+                <option value="">-- Chọn chức vụ --</option>
+                <option value="Quản lý">Quản lý</option>
+                <option value="Nhân viên">Nhân viên</option>
+            </select>
+            <span asp-validation-for="ChucVu" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="NgayVaoLam" class="form-label">Ngày vào làm</label>
+            <input asp-for="NgayVaoLam" type="date" class="form-control" />
+            <span asp-validation-for="NgayVaoLam" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="SDT" class="form-label">Số điện thoại</label>
+            <input asp-for="SDT" class="form-control" />
+            <span asp-validation-for="SDT" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label">Email</label>
+            <input asp-for="Email" type="email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="CCCD" class="form-label">CCCD</label>
+            <input asp-for="CCCD" class="form-control" />
+            <span asp-validation-for="CCCD" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-success">Cập nhật thông tin</button>
+
+        @* Nút xóa nhân viên, dùng asp-page-handler nếu bạn có handler riêng cho xóa trên trang này,
+           hoặc asp-page trỏ đến trang DeleteNhanVien như bạn đã có. *@
+        <a asp-page="/NhanVien/DeleteNhanVien" asp-route-id="@Model.MaNV" class="btn btn-outline-danger ms-2"
+           onclick="return confirm('Bạn có chắc chắn muốn xóa nhân viên @Model.HoTen (@Model.MaNV)?');">
+            🗑️ Xoá nhân viên
+        </a>
+        <a asp-page="/NhanVien/EditNhanVien" class="btn btn-outline-secondary ms-2">Chọn nhân viên khác</a>
+    </form>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,32 @@
+@page
+@model TonKhoModel
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @Model.ErrorMessage
+    </div>
+}
+<h2>Danh sách tồn kho</h2>
+<table border="1" cellpadding="6">
+    <thead>
+        <tr>
+            <th>Mã sách</th>
+            <th>Tiêu đề</th>
+            <th>Tổng nhập</th>
+            <th>Tổng bán</th>
+            <th>Tồn kho</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.TonKhoList)
+    {
+        <tr>
+            <td>@item.MaSach</td>
+            <td>@item.TieuDe</td>
+            <td>@item.TongNhap</td>
+            <td>@item.TongBan</td>
+            <td>@item.TonKho</td>
+        </tr>
+    }
+    </tbody>
+</table>

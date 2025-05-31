@@ -1,0 +1,47 @@
+﻿@page
+@model ImportAllTablesModel
+@{
+    ViewData["Title"] = "Nhập dữ liệu từ CSV";
+}
+
+<h2>📥 Nhập dữ liệu từ file CSV</h2>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <div class="alert @(Model.Message.StartsWith("✅") ? "alert-success" : "alert-danger")">
+        @Model.Message
+    </div>
+}
+
+<form method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
+    <div class="mb-3">
+        <label for="TableName" class="form-label">Chọn bảng cần nhập:</label>
+        <select asp-for="TableName" class="form-select" required>
+            <option value="">-- Chọn bảng --</option>
+            @foreach (var table in Model.Tables)
+            {
+                <option value="@table">@table</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="CsvFile" class="form-label">Chọn file CSV:</label>
+        <input type="file" asp-for="CsvFile" class="form-control" accept=".csv" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">📤 Import</button>
+</form>
+
+@section Scripts {
+    <script>
+        function validateForm() {
+            var fileInput = document.querySelector('input[type="file"]');
+            if (!fileInput.files || fileInput.files.length === 0) {
+                alert("Vui lòng chọn một file CSV trước khi import.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+}

@@ -1,0 +1,834 @@
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.GeneratedMSBuildEditorConfig.editorconfig
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.AssemblyInfoInputs.cache
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.AssemblyInfo.cs
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.csproj.CoreCompileInputs.cache
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.MvcApplicationPartsAssemblyInfo.cache
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.RazorAssemblyInfo.cache
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.RazorAssemblyInfo.cs
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.sourcelink.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/bin/Debug/net9.0/appsettings.Development.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/bin/Debug/net9.0/appsettings.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.staticwebassets.runtime.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.staticwebassets.endpoints.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.deps.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.runtimeconfig.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.pdb
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/bin/Debug/net9.0/System.Data.SqlClient.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-arm64/native/sni.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-x64/native/sni.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-x86/native/sni.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/bin/Debug/net9.0/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win/lib/net8.0/System.Data.SqlClient.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.csproj.AssemblyReference.cache
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/scopedcss/bundle/QuanLyNhaSach.styles.css
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/scopedcss/projectbundle/QuanLyNhaSach.bundle.scp.css
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/g9z0pndacy-b9sayid5wm.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/i1jt35bdkl-61n19gt1b8.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/kqqndan4ti-xtxxf3hu2r.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/08gsdqvyp6-bqjiyaj88i.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/qwjynytc2x-c2jlpeoesf.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/dp5z7kudrn-erw9l3u2r3.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/h7qwolh7gf-aexeepp0ev.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/xmtb3cdmrq-d7shbmvgxk.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/2xg15c0rjo-ausgxo2sd3.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/532a3uuvfy-k8d9w2qqmf.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/ry2vj0zfjg-cosvhxvwiu.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/tchhezl1q4-ub07r2b239.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/4rfu2vtzve-fvhpjtyr6v.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/7w2fhdset6-b7pk76d08c.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/f9lb3c0u91-fsbi9cje9m.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/ydtr1ddzq3-rzd6atqjts.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/qnnwmkrczq-ee0r1s7dh0.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/m65gbke5wh-dxx9fxp4il.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/f0hfhqup5c-jd9uben2k1.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/knt943xj1l-khv3u5hwcm.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/ywasqpxt09-r4e9w2rdcm.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/a8audl32t4-lcd1t2u6c8.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/ujwm4l5ku0-c2oey78nd0.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/78mqcpso9f-tdbxkamptv.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/i0dfkfzu0g-j5mq2jizvt.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/ev7z41s8e3-06098lyss8.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/781rlg6hxi-nvvlpmu67g.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/4d9sxdwdtj-s35ty4nyc5.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/p4uqymrmfo-pj5nd1wqec.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/1kja9pw5dz-46ein0sx1k.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/eqh5dl2c0u-v0zj4ognzu.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/kef2hl2twx-37tfw0ft22.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/u53z56z5qa-hrwsygsryq.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/0wxbbrk2rh-pk9g2wxc8p.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/14xlpejz9i-ft3s53vfgj.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/bsrud901bc-6cfz1n2cew.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/9ytboiup4u-6pdc2jztkx.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/a99laxes9n-493y06b0oq.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/ey72z9uu4s-iovd86k7lj.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/ngs1ssiii8-vr1egmr9el.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/7jnai162sa-kbrnm935zg.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/tbqxqrbscl-jj8uyg4cgr.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/9wnhlmbs0s-y7v9cxd14o.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/6jkigqd7gg-notf2xhcfb.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/vtot79f39z-h1s4sie4z3.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/pedrlrm1ds-63fj8s7r0e.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/lvpbzoic55-0j3bgjxly4.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/6ok7g42pgl-47otxtyo56.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/p5eibt9js8-4v8eqarkd7.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/q0eayghpjg-356vix0kms.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/u5i7wrlt2k-83jwlth58m.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/ivrxatabp4-mrlpezrjn3.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/243sl0ihxq-lzl9nlhx6b.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/e0gcqsln09-ag7o75518u.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/xbiupzh5ym-x0q3zqp4vz.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/e4x7m9xox6-0i3buxo5is.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/ihku7cdf3j-o1o13a6vjx.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/p1e0m498zu-ttgo8qnofa.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/qvliadq3cs-2z0ns9nrw6.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/urcmu9gy9o-muycvpuwrr.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/pfo8e10xc9-87fc7y1x7t.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/w3f2i09y38-mlv21k5csn.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/fwmp0hvkbn-1h9r029iz7.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/compressed/vdvzpojw83-1h9r029iz7.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.build.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.development.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets/msbuild.QuanLyNhaSach.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets/msbuild.QuanLyNhaSach.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets/msbuild.build.QuanLyNhaSach.props
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.QuanLyNhaSach.props
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.QuanLyNhaSach.props
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.pack.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNh.09863DCF.Up2Date
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/refint/QuanLyNhaSach.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.pdb
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.genruntimeconfig.cache
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/QuanLyNhaSach/obj/Debug/net9.0/ref/QuanLyNhaSach.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/appsettings.Development.json
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/appsettings.json
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.staticwebassets.runtime.json
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.staticwebassets.endpoints.json
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.deps.json
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.runtimeconfig.json
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.pdb
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Azure.Core.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Azure.Identity.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Bcl.Cryptography.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/System.ClientModel.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/System.Data.SqlClient.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.Data.SqlClient.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.Data.SqlClient.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.Data.SqlClient.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.Data.SqlClient.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.Data.SqlClient.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.Data.SqlClient.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.Data.SqlClient.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.Data.SqlClient.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.Data.SqlClient.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.Data.SqlClient.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/runtimes/unix/lib/net9.0/Microsoft.Data.SqlClient.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win/lib/net9.0/Microsoft.Data.SqlClient.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-arm64/native/sni.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-x64/native/sni.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-x86/native/sni.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win/lib/net8.0/System.Data.SqlClient.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.csproj.AssemblyReference.cache
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.AssemblyInfoInputs.cache
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.AssemblyInfo.cs
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.csproj.CoreCompileInputs.cache
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.MvcApplicationPartsAssemblyInfo.cache
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.RazorAssemblyInfo.cache
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.RazorAssemblyInfo.cs
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/scopedcss/bundle/QuanLyNhaSach.styles.css
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/scopedcss/projectbundle/QuanLyNhaSach.bundle.scp.css
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/g9z0pndacy-b9sayid5wm.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/i1jt35bdkl-61n19gt1b8.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/kqqndan4ti-xtxxf3hu2r.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/08gsdqvyp6-bqjiyaj88i.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/qwjynytc2x-c2jlpeoesf.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/dp5z7kudrn-erw9l3u2r3.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/h7qwolh7gf-aexeepp0ev.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/xmtb3cdmrq-d7shbmvgxk.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/2xg15c0rjo-ausgxo2sd3.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/532a3uuvfy-k8d9w2qqmf.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/ry2vj0zfjg-cosvhxvwiu.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/tchhezl1q4-ub07r2b239.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/4rfu2vtzve-fvhpjtyr6v.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/7w2fhdset6-b7pk76d08c.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/f9lb3c0u91-fsbi9cje9m.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/ydtr1ddzq3-rzd6atqjts.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/qnnwmkrczq-ee0r1s7dh0.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/m65gbke5wh-dxx9fxp4il.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/f0hfhqup5c-jd9uben2k1.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/knt943xj1l-khv3u5hwcm.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/ywasqpxt09-r4e9w2rdcm.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/a8audl32t4-lcd1t2u6c8.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/ujwm4l5ku0-c2oey78nd0.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/78mqcpso9f-tdbxkamptv.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/i0dfkfzu0g-j5mq2jizvt.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/ev7z41s8e3-06098lyss8.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/781rlg6hxi-nvvlpmu67g.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/4d9sxdwdtj-s35ty4nyc5.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/p4uqymrmfo-pj5nd1wqec.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/1kja9pw5dz-46ein0sx1k.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/eqh5dl2c0u-v0zj4ognzu.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/kef2hl2twx-37tfw0ft22.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/u53z56z5qa-hrwsygsryq.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/0wxbbrk2rh-pk9g2wxc8p.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/14xlpejz9i-ft3s53vfgj.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/bsrud901bc-6cfz1n2cew.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/9ytboiup4u-6pdc2jztkx.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/a99laxes9n-493y06b0oq.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/ey72z9uu4s-iovd86k7lj.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/ngs1ssiii8-vr1egmr9el.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/7jnai162sa-kbrnm935zg.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/tbqxqrbscl-jj8uyg4cgr.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/9wnhlmbs0s-y7v9cxd14o.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/6jkigqd7gg-notf2xhcfb.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/vtot79f39z-h1s4sie4z3.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/pedrlrm1ds-63fj8s7r0e.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/lvpbzoic55-0j3bgjxly4.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/6ok7g42pgl-47otxtyo56.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/p5eibt9js8-4v8eqarkd7.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/q0eayghpjg-356vix0kms.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/u5i7wrlt2k-83jwlth58m.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/ivrxatabp4-mrlpezrjn3.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/243sl0ihxq-lzl9nlhx6b.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/e0gcqsln09-ag7o75518u.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/xbiupzh5ym-x0q3zqp4vz.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/e4x7m9xox6-0i3buxo5is.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/ihku7cdf3j-o1o13a6vjx.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/p1e0m498zu-ttgo8qnofa.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/qvliadq3cs-2z0ns9nrw6.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/urcmu9gy9o-muycvpuwrr.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/pfo8e10xc9-87fc7y1x7t.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/w3f2i09y38-mlv21k5csn.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/fwmp0hvkbn-1h9r029iz7.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/compressed/vdvzpojw83-1h9r029iz7.gz
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.build.json
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.development.json
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets/msbuild.QuanLyNhaSach.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets/msbuild.QuanLyNhaSach.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets/msbuild.build.QuanLyNhaSach.props
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.QuanLyNhaSach.props
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.QuanLyNhaSach.props
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.pack.json
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNh.09863DCF.Up2Date
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/refint/QuanLyNhaSach.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.pdb
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.genruntimeconfig.cache
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/ref/QuanLyNhaSach.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Humanizer.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/System.CodeDom.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/hovuongtuongvy/Documents/QLTT/DoAn/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.sourcelink.json
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/appsettings.Development.json
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/appsettings.json
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.staticwebassets.runtime.json
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.staticwebassets.endpoints.json
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.exe
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.deps.json
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.runtimeconfig.json
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.pdb
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Azure.Core.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Azure.Identity.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Humanizer.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Bcl.Cryptography.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/Mono.TextTemplating.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/System.ClientModel.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/System.CodeDom.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/System.Composition.Convention.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/System.Composition.Hosting.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/System.Composition.Runtime.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/System.Composition.TypedParts.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/System.Data.SqlClient.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/System.Memory.Data.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.Data.SqlClient.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.Data.SqlClient.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.Data.SqlClient.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.Data.SqlClient.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.Data.SqlClient.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.Data.SqlClient.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.Data.SqlClient.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.Data.SqlClient.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.Data.SqlClient.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.Data.SqlClient.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/runtimes/unix/lib/net9.0/Microsoft.Data.SqlClient.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win/lib/net9.0/Microsoft.Data.SqlClient.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-arm64/native/sni.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-x64/native/sni.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-x86/native/sni.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win/lib/net8.0/System.Data.SqlClient.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.csproj.AssemblyReference.cache
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.AssemblyInfoInputs.cache
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.AssemblyInfo.cs
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.csproj.CoreCompileInputs.cache
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.RazorAssemblyInfo.cache
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.RazorAssemblyInfo.cs
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.sourcelink.json
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/scopedcss/bundle/QuanLyNhaSach.styles.css
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/scopedcss/projectbundle/QuanLyNhaSach.bundle.scp.css
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/g9z0pndacy-b9sayid5wm.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/i1jt35bdkl-61n19gt1b8.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/kqqndan4ti-xtxxf3hu2r.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/08gsdqvyp6-t1cqhe9u97.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/qwjynytc2x-c2jlpeoesf.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/dp5z7kudrn-sejl45xvog.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/h7qwolh7gf-aexeepp0ev.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/xmtb3cdmrq-xvp3kq03qx.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/2xg15c0rjo-ausgxo2sd3.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/532a3uuvfy-22vffe00uq.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/ry2vj0zfjg-cosvhxvwiu.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/tchhezl1q4-qesaa3a1fm.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/4rfu2vtzve-fvhpjtyr6v.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/7w2fhdset6-tmc1g35s3z.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/f9lb3c0u91-fsbi9cje9m.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/ydtr1ddzq3-rxsg74s51o.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/qnnwmkrczq-ee0r1s7dh0.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/m65gbke5wh-q9ht133ko3.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/f0hfhqup5c-jd9uben2k1.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/knt943xj1l-gye83jo8yx.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/ywasqpxt09-r4e9w2rdcm.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/a8audl32t4-wl58j5mj3v.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/ujwm4l5ku0-c2oey78nd0.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/78mqcpso9f-d4r6k3f320.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/i0dfkfzu0g-j5mq2jizvt.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/ev7z41s8e3-keugtjm085.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/781rlg6hxi-nvvlpmu67g.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/4d9sxdwdtj-zub09dkrxp.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/p4uqymrmfo-pj5nd1wqec.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/1kja9pw5dz-43atpzeawx.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/eqh5dl2c0u-v0zj4ognzu.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/kef2hl2twx-ynyaa8k90p.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/u53z56z5qa-hrwsygsryq.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/0wxbbrk2rh-c63t5i9ira.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/14xlpejz9i-ft3s53vfgj.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/bsrud901bc-4094rpi4f9.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/9ytboiup4u-6pdc2jztkx.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/a99laxes9n-hd3gran6i8.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/ey72z9uu4s-iovd86k7lj.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/ngs1ssiii8-ltid2c489k.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/7jnai162sa-kbrnm935zg.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/tbqxqrbscl-8vyfqsqgz1.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/9wnhlmbs0s-y7v9cxd14o.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/6jkigqd7gg-u9q1upor1n.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/vtot79f39z-h1s4sie4z3.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/pedrlrm1ds-4d85u1mtcx.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/lvpbzoic55-0j3bgjxly4.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/6ok7g42pgl-03hjc8e09r.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/p5eibt9js8-48y08845bh.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/q0eayghpjg-356vix0kms.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/u5i7wrlt2k-83jwlth58m.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/ivrxatabp4-mrlpezrjn3.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/243sl0ihxq-worgj0nhwm.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/e0gcqsln09-gk0pw8i4co.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/xbiupzh5ym-x0q3zqp4vz.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/e4x7m9xox6-d6nrnj6jjx.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/ihku7cdf3j-m9qm4tazc0.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/p1e0m498zu-ttgo8qnofa.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/qvliadq3cs-jjsuc0puko.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/urcmu9gy9o-9vr69e8ynj.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/pfo8e10xc9-87fc7y1x7t.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/w3f2i09y38-mlv21k5csn.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/fwmp0hvkbn-ag2bfzd7kz.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/compressed/vdvzpojw83-ag2bfzd7kz.gz
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.build.json
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.build.json.cache
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.development.json
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.upToDateCheck.txt
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNh.09863DCF.Up2Date
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/refint/QuanLyNhaSach.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.pdb
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.genruntimeconfig.cache
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/obj/Debug/net9.0/ref/QuanLyNhaSach.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ClosedXML.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ClosedXML.Parser.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/CsvHelper.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/DocumentFormat.OpenXml.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/DocumentFormat.OpenXml.Framework.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/ExcelNumberFormat.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/RBush.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/SixLabors.Fonts.dll
+C:/Users/dinhl/OneDrive/Desktop/IE103-QLNS/QuanLyNhaSach/bin/Debug/net9.0/System.IO.Packaging.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/appsettings.Development.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/appsettings.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.staticwebassets.runtime.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.staticwebassets.endpoints.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.deps.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.runtimeconfig.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/QuanLyNhaSach.pdb
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Azure.Core.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Azure.Identity.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ClosedXML.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ClosedXML.Parser.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/CsvHelper.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/DocumentFormat.OpenXml.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/DocumentFormat.OpenXml.Framework.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ExcelNumberFormat.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Humanizer.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Bcl.Cryptography.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/RBush.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/SixLabors.Fonts.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/System.ClientModel.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/System.CodeDom.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/System.Data.SqlClient.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/System.IO.Packaging.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/cs/Microsoft.Data.SqlClient.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/de/Microsoft.Data.SqlClient.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/es/Microsoft.Data.SqlClient.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/fr/Microsoft.Data.SqlClient.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/it/Microsoft.Data.SqlClient.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ja/Microsoft.Data.SqlClient.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ko/Microsoft.Data.SqlClient.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/pl/Microsoft.Data.SqlClient.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/ru/Microsoft.Data.SqlClient.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/tr/Microsoft.Data.SqlClient.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/runtimes/unix/lib/net9.0/Microsoft.Data.SqlClient.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win/lib/net9.0/Microsoft.Data.SqlClient.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-arm64/native/sni.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-x64/native/sni.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win-x86/native/sni.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/bin/Debug/net9.0/runtimes/win/lib/net8.0/System.Data.SqlClient.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.csproj.AssemblyReference.cache
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.GeneratedMSBuildEditorConfig.editorconfig
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.AssemblyInfoInputs.cache
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.AssemblyInfo.cs
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.csproj.CoreCompileInputs.cache
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.MvcApplicationPartsAssemblyInfo.cache
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.RazorAssemblyInfo.cache
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.RazorAssemblyInfo.cs
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.sourcelink.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/scopedcss/bundle/QuanLyNhaSach.styles.css
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/scopedcss/projectbundle/QuanLyNhaSach.bundle.scp.css
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/g9z0pndacy-b9sayid5wm.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/i1jt35bdkl-61n19gt1b8.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/kqqndan4ti-xtxxf3hu2r.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/08gsdqvyp6-t1cqhe9u97.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/qwjynytc2x-c2jlpeoesf.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/dp5z7kudrn-sejl45xvog.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/h7qwolh7gf-aexeepp0ev.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/xmtb3cdmrq-xvp3kq03qx.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/2xg15c0rjo-ausgxo2sd3.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/532a3uuvfy-22vffe00uq.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/ry2vj0zfjg-cosvhxvwiu.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/tchhezl1q4-qesaa3a1fm.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/4rfu2vtzve-fvhpjtyr6v.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/7w2fhdset6-tmc1g35s3z.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/f9lb3c0u91-fsbi9cje9m.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/ydtr1ddzq3-rxsg74s51o.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/qnnwmkrczq-ee0r1s7dh0.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/m65gbke5wh-q9ht133ko3.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/f0hfhqup5c-jd9uben2k1.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/knt943xj1l-gye83jo8yx.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/ywasqpxt09-r4e9w2rdcm.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/a8audl32t4-wl58j5mj3v.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/ujwm4l5ku0-c2oey78nd0.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/78mqcpso9f-d4r6k3f320.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/i0dfkfzu0g-j5mq2jizvt.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/ev7z41s8e3-keugtjm085.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/781rlg6hxi-nvvlpmu67g.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/4d9sxdwdtj-zub09dkrxp.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/p4uqymrmfo-pj5nd1wqec.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/1kja9pw5dz-43atpzeawx.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/eqh5dl2c0u-v0zj4ognzu.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/kef2hl2twx-ynyaa8k90p.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/u53z56z5qa-hrwsygsryq.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/0wxbbrk2rh-c63t5i9ira.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/14xlpejz9i-ft3s53vfgj.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/bsrud901bc-4094rpi4f9.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/9ytboiup4u-6pdc2jztkx.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/a99laxes9n-hd3gran6i8.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/ey72z9uu4s-iovd86k7lj.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/ngs1ssiii8-ltid2c489k.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/7jnai162sa-kbrnm935zg.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/tbqxqrbscl-8vyfqsqgz1.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/9wnhlmbs0s-y7v9cxd14o.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/6jkigqd7gg-u9q1upor1n.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/vtot79f39z-h1s4sie4z3.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/pedrlrm1ds-4d85u1mtcx.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/lvpbzoic55-0j3bgjxly4.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/6ok7g42pgl-03hjc8e09r.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/p5eibt9js8-48y08845bh.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/q0eayghpjg-356vix0kms.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/u5i7wrlt2k-83jwlth58m.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/ivrxatabp4-mrlpezrjn3.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/243sl0ihxq-worgj0nhwm.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/e0gcqsln09-gk0pw8i4co.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/xbiupzh5ym-x0q3zqp4vz.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/e4x7m9xox6-d6nrnj6jjx.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/ihku7cdf3j-m9qm4tazc0.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/p1e0m498zu-ttgo8qnofa.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/qvliadq3cs-jjsuc0puko.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/urcmu9gy9o-9vr69e8ynj.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/pfo8e10xc9-87fc7y1x7t.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/w3f2i09y38-mlv21k5csn.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/fwmp0hvkbn-1h9r029iz7.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/compressed/vdvzpojw83-1h9r029iz7.gz
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.build.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.development.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets/msbuild.QuanLyNhaSach.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets/msbuild.QuanLyNhaSach.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets/msbuild.build.QuanLyNhaSach.props
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.QuanLyNhaSach.props
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.QuanLyNhaSach.props
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/staticwebassets.pack.json
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNh.09863DCF.Up2Date
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/refint/QuanLyNhaSach.dll
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.pdb
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/QuanLyNhaSach.genruntimeconfig.cache
+/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/obj/Debug/net9.0/ref/QuanLyNhaSach.dll

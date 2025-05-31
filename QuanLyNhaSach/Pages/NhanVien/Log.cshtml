@@ -1,0 +1,28 @@
+@page
+@model QuanLyNhaSach.Pages.NhanVien.LogModel
+
+<h2>📜 Lịch sử Thêm / Sửa / Xoá nhân viên</h2>
+
+<table class="table table-bordered table-striped mt-3">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Mã NV</th>
+            <th>Hành động</th>
+            <th>Thời gian</th>
+            <th>Ghi chú</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var log in Model.Logs)
+        {
+            <tr>
+                <td>@log.LogID</td>
+                <td>@log.MaNV</td>
+                <td>@log.HanhDong</td>
+                <td>@log.ThoiGian.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                <td>@log.GhiChu</td>
+            </tr>
+        }
+    </tbody>
+</table>

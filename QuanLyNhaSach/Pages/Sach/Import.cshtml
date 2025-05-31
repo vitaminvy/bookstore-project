@@ -1,0 +1,172 @@
+@page
+@model QuanLyNhaSach.Pages.Sach.ImportModel
+@{
+    ViewData["Title"] = "Tạo Phiếu Nhập Sách"; // Sửa Title cho rõ ràng hơn
+}
+
+<h2>📦 @ViewData["Title"]</h2>
+
+@if (!string.IsNullOrEmpty(Model.ThongBao))
+{
+    @* Phân biệt loại thông báo dựa trên ký tự đầu tiên *@
+    var alertClass = Model.ThongBao.StartsWith("✅") ? "alert-success" : (Model.ThongBao.StartsWith("❌") ? "alert-danger" : "alert-info");
+    <div class="alert @alertClass mt-3">@Html.Raw(Model.ThongBao.ReplaceLineEndings("<br />"))</div>
+}
+
+<form method="post">
+
+    @* THÊM: Hiển thị tóm tắt các lỗi không thuộc về trường cụ thể, hoặc tất cả lỗi *@
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+    @* Hoặc dùng "All" nếu muốn hiển thị cả lỗi của từng trường ở đây: *@
+    @* <div asp-validation-summary="All" class="text-danger mb-3"></div> *@
+
+
+    <div class="mb-3">
+        <label asp-for="SelectedNCC" class="form-label">Chọn Nhà Cung Cấp</label> @* THÊM asp-for cho label *@
+        <select asp-for="SelectedNCC" asp-items="Model.NhaCungCapList" class="form-select">
+            @* Đổi form-control thành form-select cho nhất quán *@
+            <option value="">-- Chọn nhà cung cấp --</option>
+        </select>
+        @* THÊM: Hiển thị lỗi validation cho trường SelectedNCC *@
+        <span asp-validation-for="SelectedNCC" class="text-danger d-block"></span>
+    </div>
+
+    <hr class="my-4" />
+    <h5>Chi tiết Sách Nhập</h5>
+    <div id="books-container">
+        @* Phần này sẽ được JavaScript xử lý để thêm các dòng sách.
+           Bạn có thể render một dòng mẫu ở đây nếu Model.Books có phần tử ban đầu,
+           hoặc để JavaScript tạo dòng đầu tiên.
+           Hiện tại, code của bạn render dòng Books[0] cố định.
+        *@
+        @if (Model.Books != null && Model.Books.Count > 0)
+        {
+            for (int i = 0; i < Model.Books.Count; i++)
+            {
+                <div class="row g-2 mb-2 book-row">
+                    <div class="col-md-5">
+                        <label class="form-label d-none">Sách</label> @* Label ẩn cho accessibility nếu cần *@
+                        <select name="Books[@i].MaSach" asp-for="Books[i].MaSach" asp-items="Model.SachList" class="form-select">
+                            <option value="">-- Chọn sách --</option>
+                        </select>
+                        <span asp-validation-for="Books[@i].MaSach" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label d-none">Số lượng</label>
+                        <input name="Books[@i].SoLuong" asp-for="Books[i].SoLuong" type="number" class="form-control" placeholder="Số lượng" min="1" />
+                        <span asp-validation-for="Books[@i].SoLuong" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label d-none">Giá nhập</label>
+                        <input name="Books[@i].GiaNhap" asp-for="Books[i].GiaNhap" type="number" step="0.01" class="form-control" placeholder="Giá nhập" min="0.01" />
+                        <span asp-validation-for="Books[i].GiaNhap" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-1 align-self-end">
+                        <button type="button" class="btn btn-danger btn-sm" onclick="removeBookRow(this)">Xóa</button>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            @* Có thể tạo một dòng mẫu đầu tiên ở đây nếu muốn *@
+            <div class="row g-2 mb-2 book-row">
+                <div class="col-md-5">
+                    <label class="form-label d-none">Sách</label>
+                    <select name="Books[0].MaSach" class="form-select">
+                        <option value="">-- Chọn sách --</option>
+                        @foreach (var item in Model.SachList)
+                        {
+                            <option value="@item.Value">@item.Text</option>
+                        }
+                    </select>
+                    <span asp-validation-for="Books[0].MaSach" class="text-danger"></span>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label d-none">Số lượng</label>
+                    <input name="Books[0].SoLuong" type="number" value="1" class="form-control" placeholder="Số lượng" min="1" />
+                    <span asp-validation-for="Books[0].SoLuong" class="text-danger"></span>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label d-none">Giá nhập</label>
+                    <input name="Books[0].GiaNhap" type="number" step="0.01" value="0" class="form-control" placeholder="Giá nhập" min="0.01" />
+                    <span asp-validation-for="Books[0].GiaNhap" class="text-danger"></span>
+                </div>
+                <div class="col-md-1 align-self-end">
+                    @* Nút xóa không cần cho dòng đầu tiên nếu nó được render cố định *@
+                </div>
+            </div>
+        }
+    </div>
+
+    <button type="button" class="btn btn-secondary mt-2" onclick="themSach()">➕ Thêm sách</button>
+
+    <div class="mt-4">
+        <button type="submit" class="btn btn-success">✅ Xác nhận nhập</button>
+    </div>
+
+</form>
+
+@* THÊM SECTION NÀY ĐỂ KÍCH HOẠT CLIENT-SIDE VALIDATION *@
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        let bookIndex = @Model.Books.Count; // Khởi tạo index dựa trên số sách đã có (nếu có)
+        // Nếu không có sách nào ban đầu, và bạn render dòng mẫu đầu tiên,
+        // thì bookIndex nên bắt đầu từ 1 (vì Books[0] đã được render)
+        if (bookIndex === 0 && document.querySelector('[name="Books[0].MaSach"]')) {
+            bookIndex = 1;
+        }
+
+
+        // Lấy HTML của các options cho dropdown sách một lần
+        const sachOptionsHtml = `
+            <option value="">-- Chọn sách --</option>
+            @foreach (var item in Model.SachList)
+            {
+                    // Cẩn thận với ký tự đặc biệt trong item.Text nếu có
+                    <text><option value="@item.Value">@Html.Raw(System.Web.HttpUtility.JavaScriptStringEncode(item.Text ?? ""))</option></text>
+            }
+        `;
+
+        function themSach() {
+            var container = document.getElementById('books-container');
+            var newRowDiv = document.createElement('div');
+            newRowDiv.className = 'row g-2 mb-2 book-row';
+            newRowDiv.innerHTML = `
+                <div class="col-md-5">
+                    <select name="Books[${bookIndex}].MaSach" class="form-select" required>
+                        ${sachOptionsHtml}
+                    </select>
+                    <span class="text-danger" data-valmsg-for="Books[${bookIndex}].MaSach"></span>
+                </div>
+                <div class="col-md-3">
+                    <input name="Books[${bookIndex}].SoLuong" type="number" class="form-control" placeholder="Số lượng" min="1" value="1" required />
+                    <span class="text-danger" data-valmsg-for="Books[${bookIndex}].SoLuong"></span>
+                </div>
+                <div class="col-md-3">
+                    <input name="Books[${bookIndex}].GiaNhap" type="number" step="any" class="form-control" placeholder="Giá nhập" min="0.01" value="0" required />
+                    <span class="text-danger" data-valmsg-for="Books[${bookIndex}].GiaNhap"></span>
+                </div>
+                <div class="col-md-1 align-self-center">
+                    <button type="button" class="btn btn-danger btn-sm" onclick="removeBookRow(this)">Xóa</button>
+                </div>
+            `;
+            container.appendChild(newRowDiv);
+
+            // Kích hoạt lại client-side validation cho form nếu cần (đặc biệt nếu dùng jQuery Unobtrusive)
+            var form = document.querySelector("form");
+            if (form && window.jQuery && jQuery.validator && jQuery.validator.unobtrusive) {
+                jQuery(form).removeData("validator");
+                jQuery(form).removeData("unobtrusiveValidation");
+                jQuery.validator.unobtrusive.parse(form);
+            }
+            bookIndex++;
+        }
+
+        function removeBookRow(button) {
+            button.closest('.book-row').remove();
+            // Không cần giảm bookIndex vì server binding dựa trên chỉ số tuần tự
+        }
+    </script>
+}

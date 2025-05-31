@@ -1,0 +1,37 @@
+﻿@page
+@model QuanLyNhaSach.Pages.Xuat.ExportAllTablesModel
+@{
+    ViewData["Title"] = "Xuất dữ liệu ra file";
+}
+
+<h2>📤 Xuất dữ liệu từ bảng</h2>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <div class="alert @(Model.Message.StartsWith("✅") ? "alert-success" : "alert-danger")">
+        @Model.Message
+    </div>
+}
+
+<form method="post">
+    <div class="mb-3">
+        <label for="TableName" class="form-label">Chọn bảng cần xuất:</label>
+        <select asp-for="TableName" class="form-select" required>
+            <option value="">-- Chọn bảng --</option>
+            @foreach (var table in Model.Tables)
+            {
+                <option value="@table">@table</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Chọn định dạng xuất:</label>
+        <select asp-for="ExportFormat" class="form-select" required>
+            <option value="csv">CSV</option>
+            <option value="excel">Excel</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">📁 Xuất File</button>
+</form>

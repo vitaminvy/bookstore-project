@@ -1,0 +1,130 @@
+﻿@{
+    var role = Context.Session.GetString("CurrentRole");
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - QuanLyNhaSach</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/QuanLyNhaSach.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">QuanLyNhaSach</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Trang chủ</a>
+                        </li>
+
+                        @if (!string.IsNullOrEmpty(role))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Chức năng
+                                </a>
+                                <ul class="dropdown-menu">
+                                    @if (role == "Quản lý")
+                                    {
+                                        <li><a class="dropdown-item" asp-page="/Sach/CreateTacGia">➕ Thêm tác giả</a></li>
+                                        <li><a class="dropdown-item" asp-page="/Sach/CreateTheLoai">➕ Thêm thể loại</a></li>
+
+
+                                        <li><a class="dropdown-item" asp-page="/Sach/Create">➕ Thêm sách</a></li>
+                                        <li><a class="dropdown-item" asp-page="/Sach/Edit" asp-route-id="SA101"> Sửa sách</a></li>
+                                        <li><a class="dropdown-item" asp-page="/Sach/Delete">🗑 Xóa sách</a></li>
+                                        <li><a class="dropdown-item" asp-page="/Sach/Search">🔍 Tìm kiếm sách</a></li>
+
+
+
+                                        <li><a class="dropdown-item" asp-page="/Sach/Import">📚 Nhập sách</a></li>
+                                        <li><a class="dropdown-item" asp-page="/Sach/ViewHistory">📑Nhật kí nhập sách</a></li>
+
+
+
+
+                                        <li><a class="dropdown-item" asp-page="/NhanVien/CreateNhanVien">👥Thêm Nhân Viên</a></li>
+                                        <li><a class="dropdown-item" asp-page="/NhanVien/EditNhanVien">👥Chỉnh sửa thông tin Nhân Viên</a></li>
+                                        <li><a class="dropdown-item" asp-page="/NhanVien/Log">📑Nhật kí chỉnh sửa danh sách Nhân Viên</a></li>
+                                        <li><a class="dropdown-item" asp-page="/KhuyenMai/CreateKhuyenMai">🛒 Thêm khuyến Mãi</a></li>
+
+
+                                        <li><a class="dropdown-item" asp-page="/Nhap/ImportAllTables">📊 Nhập dữ liệu vào các bảng</a></li>
+                                        <li><a class="dropdown-item" asp-page="/Xuat/ExportAllTables">📁 Xuất dữ liệu từ bảng</a></li>
+                                        <li><a class="dropdown-item" asp-page="/Backup/CreateBackup">💾 Sao lưu Cơ sở dữ liệu</a></li>
+
+
+                                        <li><hr class="dropdown-divider" /></li>
+                                    }
+
+                                    @if (role == "Nhân viên" || role == "Quản lý")
+                                    {
+                                        <li><a class="dropdown-item" asp-page="/Sach/Search">🔍 Tìm kiếm sách</a></li>
+                                        <li><a class="dropdown-item" asp-page="/KhuyenMai/IndexKhuyenMai">🛒  Danh sách khuyến mãi</a></li>
+
+                                        <li><a class="dropdown-item" asp-page="/HoaDon/CreateHoaDon">🧾 Hóa đơn</a></li>
+                                        <li><a class="dropdown-item" asp-page="/KhachHang/CreateKhachHang">👤 Thêm khách hàng</a></li>
+
+                                    }
+
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item" asp-page="/TonKho">📦 Tồn kho</a></li>
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                    <!-- Góc phải: Đăng nhập/Đăng xuất -->
+                    <ul class="navbar-nav">
+                        @if (string.IsNullOrEmpty(role))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-page="/Login">
+                                    <i class="bi bi-box-arrow-in-right"></i>🔐 Đăng nhập
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <span class="nav-link text-dark">👤 @role</span>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-page="/Logout">
+                                    <i class="bi bi-box-arrow-right"></i>🚪 Đăng xuất
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - QuanLyNhaSach - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

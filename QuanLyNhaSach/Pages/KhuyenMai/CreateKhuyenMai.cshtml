@@ -1,0 +1,87 @@
+@page
+@model QuanLyNhaSach.Pages.KhuyenMai.CreateKhuyenMaiModel
+@{
+    ViewData["Title"] = "Thêm Khuyến Mãi Mới"; // Thống nhất tiêu đề
+}
+
+<h2>➕ @ViewData["Title"]</h2>
+
+@* Hiển thị thông báo thành công từ TempData *@
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success mt-3">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@* Hiển thị thông báo lỗi chung từ TempData (ví dụ: lỗi quyền hạn) *@
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger mt-3">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<form method="post" class="mt-3">
+    @* ✅ Hiển thị tóm tắt các lỗi validation không thuộc về trường cụ thể (ModelOnly) *@
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+    <div class="mb-3">
+        <label asp-for="MaKhuyenMai" class="form-label">Mã khuyến mãi</label>
+        <input asp-for="MaKhuyenMai" class="form-control" />
+        @* ✅ Hiển thị lỗi validation cho trường MaKhuyenMai *@
+        <span asp-validation-for="MaKhuyenMai" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="MoTa" class="form-label">Mô tả</label>
+        <textarea asp-for="MoTa" class="form-control" rows="3"></textarea> @* ✅ Thêm rows cho textarea *@
+        <span asp-validation-for="MoTa" class="text-danger"></span>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label asp-for="NgayBatDau" class="form-label">Ngày bắt đầu</label>
+            <input asp-for="NgayBatDau" type="date" class="form-control" />
+            <span asp-validation-for="NgayBatDau" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label asp-for="NgayKetThuc" class="form-label">Ngày kết thúc</label>
+            <input asp-for="NgayKetThuc" type="date" class="form-control" />
+            <span asp-validation-for="NgayKetThuc" class="text-danger"></span>
+            @* ✅ Hiển thị lỗi chung liên quan đến ngày (nếu có từ ModelState.AddModelError(string.Empty, ...))
+               Tuy nhiên, lỗi cụ thể của NgayKetThuc (như "Ngày kết thúc phải sau ngày bắt đầu") nên được gắn với NgayKetThuc
+               Trong file .cs, khi bạn dùng ModelState.AddModelError("NgayKetThuc", ...), nó sẽ hiển thị ở đây.
+            *@
+        </div>
+    </div>
+
+
+    <div class="mb-3">
+        <label asp-for="PhanTramGiamGia" class="form-label">Phần trăm giảm giá (%)</label>
+        @* ✅ Đổi min="0" thành min="1" để khớp với [Range(1,100)] trong Model .cs *@
+        <input asp-for="PhanTramGiamGia" type="number" min="1" max="100" class="form-control" />
+        <span asp-validation-for="PhanTramGiamGia" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Thêm khuyến mãi</button>
+</form>
+
+@* ✅ Bỏ khối hiển thị lỗi ViewData.ModelState thủ công này đi 
+       vì đã có asp-validation-summary và asp-validation-for lo việc này.
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <div>@error.ErrorMessage</div>
+        }
+    </div>
+}
+*@
+
+@* ✅ THÊM SECTION NÀY ĐỂ KÍCH HOẠT CLIENT-SIDE VALIDATION *@
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,36 @@
+@page
+@model QuanLyNhaSach.Pages.TheLoai.IndexModel
+@{
+    ViewData["Title"] = "Danh sách thể loại";
+}
+
+<h2>📑 Danh sách thể loại</h2>
+
+<a class="btn btn-primary mb-3" asp-page="/TheLoai/Create">➕ Thêm thể loại</a>
+
+@if (Model.DanhSach.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Mã thể loại</th>
+                <th>Tên thể loại</th>
+                <th>Mô tả</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var theLoai in Model.DanhSach)
+            {
+                <tr>
+                    <td>@theLoai.MaTheLoai</td>
+                    <td>@theLoai.TenTheLoai</td>
+                    <td>@theLoai.MoTa</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Chưa có thể loại nào.</p>
+}

@@ -1,0 +1,14 @@
+@page "{id}"
+@model QuanLyNhaSach.Pages.NhanVien.DeleteNhanVienModel
+
+<h2>🗑️ Xác nhận xoá nhân viên</h2>
+
+<div class="alert alert-warning">
+    Bạn có chắc chắn muốn xoá nhân viên <strong>@Model.HoTen</strong> (Mã: <code>@Model.MaNV</code>) không?
+</div>
+
+<form method="post">
+    <input type="hidden" asp-for="MaNV" />
+    <button type="submit" class="btn btn-danger">Xoá</button>
+    <a asp-page="/NhanVien/EditNhanVien" class="btn btn-secondary ms-2">Huỷ</a>
+</form>

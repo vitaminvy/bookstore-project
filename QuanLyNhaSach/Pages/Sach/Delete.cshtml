@@ -1,0 +1,20 @@
+@page
+@model QuanLyNhaSach.Pages.Sach.DeleteModel
+
+<h2>🗑 Xóa sách</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label>Chọn sách để xóa:</label>
+        <select asp-for="MaSach" asp-items="Model.SachList" class="form-control">
+            <option value="">-- Chọn sách --</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-danger mt-2">Xóa sách</button>
+
+    @if (!string.IsNullOrEmpty(Model.ThongBao))
+    {
+        <div class="alert alert-info mt-3">@Model.ThongBao</div>
+    }
+</form>

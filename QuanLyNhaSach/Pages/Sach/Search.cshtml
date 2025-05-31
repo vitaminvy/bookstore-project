@@ -1,0 +1,63 @@
+@page
+@model SearchModel
+@{
+    ViewData["Title"] = "Tìm kiếm thông minh";
+}
+
+<h2 class="text-xl font-bold mb-4">Tìm kiếm sách</h2>
+
+<form method="post" class="space-y-4">
+    <input asp-for="TuKhoa" class="form-input w-full" placeholder="Nhập từ khoá (tên sách, tác giả, thể loại)..."
+     />
+<button class="btn btn-primary">Tìm kiếm</button> 
+
+  
+
+</form>
+
+@if (Model.KetQua != null)
+{
+    if (Model.KetQua.Count > 0)
+    {
+        <h3 class="text-lg font-semibold mt-6">Kết quả tìm kiếm:</h3>
+        <table class="mt-4 w-full table-auto border border-collapse text-sm">
+            <thead class="bg-gray-100">
+                <tr>
+                    <th class="border px-2 py-1">Mã sách</th>
+                    <th class="border px-2 py-1">Tiêu đề</th>
+                    <th class="border px-2 py-1">Giá bìa</th>
+                    <th class="border px-2 py-1">Mô tả</th>
+                    <th class="border px-2 py-1">Tái bản</th>
+                    <th class="border px-2 py-1">Năm XB</th>
+                    <th class="border px-2 py-1">NXB</th>
+                    <th class="border px-2 py-1">Tình trạng</th>
+                    <th class="border px-2 py-1">Tồn kho</th>
+                    <th class="border px-2 py-1">Tác giả</th>
+                    <th class="border px-2 py-1">Thể loại</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var sach in Model.KetQua)
+                {
+                    <tr>
+                        <td class="border px-2 py-1">@sach.MaSach</td>
+                        <td class="border px-2 py-1">@sach.TieuDe</td>
+                        <td class="border px-2 py-1">@string.Format("{0:#,##0} đ", sach.GiaBia)</td>
+                        <td class="border px-2 py-1">@sach.MoTa</td>
+                        <td class="border px-2 py-1">@sach.LanTaiBan</td>
+                        <td class="border px-2 py-1">@sach.NamXuatBan</td>
+                        <td class="border px-2 py-1">@sach.MaNXB</td>
+                        <td class="border px-2 py-1">@sach.TinhTrang</td>
+                        <td class="border px-2 py-1">@sach.SoLuongTon</td>
+                        <td class="border px-2 py-1">@sach.TacGia</td>
+                        <td class="border px-2 py-1">@sach.TheLoai</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p class="text-red-500 mt-4">Không tìm thấy kết quả phù hợp.</p>
+    }
+}

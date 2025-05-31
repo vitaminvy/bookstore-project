@@ -1,0 +1,51 @@
+@page
+@model QuanLyNhaSach.Pages.NhanVien.CreateNhanVienModel
+
+<h2>👨‍💼 Thêm Nhân Viên Mới</h2>
+
+@if (!string.IsNullOrEmpty(Model.ThongBao))
+{
+    <div class="alert alert-info">@Model.ThongBao</div>
+}
+
+<form method="post">
+    <div class="mb-3">
+        <label>Mã nhân viên</label>
+        <input asp-for="MaNV" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Họ tên</label>
+        <input asp-for="HoTen" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Chức vụ</label>
+        <select asp-for="ChucVu" class="form-control">
+            <option value="Quản lý">Quản lý</option>
+            <option value="Nhân viên">Nhân viên</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Ngày vào làm</label>
+        <input asp-for="NgayVaoLam" type="date" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Số điện thoại</label>
+        <input asp-for="SDT" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>CCCD</label>
+        <input asp-for="CCCD" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">➕ Thêm nhân viên</button>
+</form>

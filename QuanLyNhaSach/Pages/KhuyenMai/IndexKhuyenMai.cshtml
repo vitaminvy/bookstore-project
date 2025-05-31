@@ -1,0 +1,41 @@
+@page
+@model QuanLyNhaSach.Pages.KhuyenMai.IndexModel
+
+<h2>📜 Danh sách Khuyến Mãi</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<table class="table table-bordered table-striped mt-3">
+    <thead class="table-dark">
+        <tr>
+            <th>Mã KM</th>
+            <th>Mô tả</th>
+            <th>Ngày bắt đầu</th>
+            <th>Ngày kết thúc</th>
+            <th>Giảm giá (%)</th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var km in Model.KhuyenMais)
+        {
+            <tr>
+                <td>@km.MaKhuyenMai</td>
+                <td>@km.MoTa</td>
+                <td>@km.NgayBatDau.ToString("dd/MM/yyyy")</td>
+                <td>@km.NgayKetThuc.ToString("dd/MM/yyyy")</td>
+                <td>@km.PhanTramGiamGia</td>
+                <td>
+                    <a class="btn btn-warning" asp-page="/KhuyenMai/EditKhuyenMai" asp-route-id="@km.MaKhuyenMai">Sửa</a>
+                    <!-- Chuyển đến trang xác nhận xoá mà không cần xác nhận lại trong trang -->
+                    <a class="btn btn-danger" asp-page="/KhuyenMai/DeleteKhuyenMai" asp-route-id="@km.MaKhuyenMai">Xoá</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

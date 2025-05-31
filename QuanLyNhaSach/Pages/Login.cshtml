@@ -1,0 +1,46 @@
+@page
+@model QuanLyNhaSach.Pages.LoginModel
+@{
+    ViewData["Title"] = "Đăng nhập";
+}
+
+<h2>🔐 Đăng nhập</h2>
+<form method="post" class="mt-3">
+    @* Hiển thị lỗi ở cấp model (nếu có) *@
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+    <div class="mb-3">
+        <label asp-for="SelectedRole" class="form-label">Chọn vai trò của bạn</label>
+        <select asp-for="SelectedRole" class="form-select">
+            <option value="">-- Vui lòng chọn vai trò --</option>
+            <option value="QuanLy">Quản Lý</option>
+            <option value="NhanVien">Nhân Viên</option>
+            @* Thêm các vai trò khác nếu có và có ConnectionString tương ứng trong appsettings.json *@
+            @* <option value="ReadOnly">Read Only</option> *@
+        </select>
+        <span asp-validation-for="SelectedRole" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="MaNV" class="form-label">Mã nhân viên</label>
+        <input asp-for="MaNV" class="form-control" />
+        <span asp-validation-for="MaNV" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="CCCD" class="form-label">CCCD (Dùng làm mật khẩu)</label>
+        <input asp-for="CCCD" type="password" class="form-control" />
+        <span asp-validation-for="CCCD" class="text-danger"></span>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Đăng nhập</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-danger mt-3">@Model.ErrorMessage</div>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

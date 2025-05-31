@@ -1,0 +1,169 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QuanLyNhaSach
+build_property.RootNamespace = QuanLyNhaSach
+build_property.ProjectDir = /Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Backup/CreateBackup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQmFja3VwL0NyZWF0ZUJhY2t1cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/HoaDon/CreateHoaDon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9hRG9uL0NyZWF0ZUhvYURvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/KhachHang/CreateKhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvS2hhY2hIYW5nL0NyZWF0ZUtoYWNoSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/KhuyenMai/CreateKhuyenMai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvS2h1eWVuTWFpL0NyZWF0ZUtodXllbk1haS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/KhuyenMai/DeleteKhuyenMai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvS2h1eWVuTWFpL0RlbGV0ZUtodXllbk1haS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/KhuyenMai/EditKhuyenMai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvS2h1eWVuTWFpL0VkaXRLaHV5ZW5NYWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/KhuyenMai/IndexKhuyenMai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvS2h1eWVuTWFpL0luZGV4S2h1eWVuTWFpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/NhanVien/CreateNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmhhblZpZW4vQ3JlYXRlTmhhblZpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/NhanVien/DeleteNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmhhblZpZW4vRGVsZXRlTmhhblZpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/NhanVien/EditNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmhhblZpZW4vRWRpdE5oYW5WaWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/NhanVien/Log.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmhhblZpZW4vTG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Nhap/ImportAllTables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmhhcC9JbXBvcnRBbGxUYWJsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Sach/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FjaC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Sach/CreateTacGia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FjaC9DcmVhdGVUYWNHaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Sach/CreateTheLoai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FjaC9DcmVhdGVUaGVMb2FpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Sach/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FjaC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Sach/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FjaC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Sach/Import.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FjaC9JbXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Sach/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FjaC9TZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Sach/ViewHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FjaC9WaWV3SGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/TestConnection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdENvbm5lY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/TheLoai/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGhlTG9haS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/TheLoai/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGhlTG9haS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/TonKho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVG9uS2hvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Xuat/ExportAllTables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvWHVhdC9FeHBvcnRBbGxUYWJsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a23521500/Documents/Năm 2/IE103 - Quản lý thông tin/Final_demo/QuanLyNhaSach/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lg5gmf2b03

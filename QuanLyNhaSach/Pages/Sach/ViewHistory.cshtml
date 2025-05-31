@@ -1,0 +1,39 @@
+@page
+@model QuanLyNhaSach.Pages.Sach.ViewHistoryModel
+
+<h2>📚 Lịch Sử Nhập Sách</h2>
+
+@if (Model.HistoryList.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Mã Sách</th>
+                <th>Số Lượng</th>
+                <th>Giá Nhập</th>
+                <th>Ngày Nhập</th>
+                <th>Mã Phiếu Nhập</th>
+                <th>Mã Nhân Viên</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.HistoryList)
+            {
+                <tr>
+                    <td>@item.ID</td>
+                    <td>@item.MaSach</td>
+                    <td>@item.SoLuong</td>
+                    <td>@item.GiaNhap.ToString("N0") đ</td>
+                    <td>@item.NgayNhap.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>@item.MaPhieuNhap</td>
+                    <td>@item.MaNV</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">Hiện chưa có lịch sử nhập sách nào.</div>
+}

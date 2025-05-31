@@ -1,0 +1,89 @@
+@page
+@model QuanLyNhaSach.Pages.Sach.EditModel
+@{
+    ViewData["Title"] = "Sửa sách";
+}
+
+<h2>✏️ Chọn sách để sửa</h2>
+
+<form method="get">
+    <div class="row mb-4">
+    
+        <div class="col-md-4">
+            <select name="id" id="sachSelect" class="form-select">
+                <option disabled selected>-- Chọn sách --</option>
+                @foreach (var s in Model.AllSachList)
+                {
+                    <option value="@s.MaSach">@s.MaSach - @s.TieuDe</option>
+                }
+            </select>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Chọn sách</button>
+</form>
+
+@if (Model.SachDaChon)
+{
+    <hr />
+    <h3>📘 Sửa thông tin sách: @Model.MaSach</h3>
+    <form method="post">
+        <input type="hidden" asp-for="MaSach" />
+        <div class="mb-3">
+            <label>Tiêu đề</label>
+            <input asp-for="TieuDe" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label>Giá bìa</label>
+            <input asp-for="GiaBia" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label>Mô tả</label>
+            <textarea asp-for="MoTa" class="form-control"></textarea>
+        </div>
+        <div class="mb-3">
+            <label>Lần tái bản</label>
+            <input asp-for="LanTaiBan" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label>Năm xuất bản</label>
+            <input asp-for="NamXuatBan" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label>Nhà xuất bản</label>
+            <select asp-for="MaNXB" asp-items="Model.NXBList" class="form-control">
+                <option value="">-- Chọn NXB --</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label>Tình trạng</label>
+            <select asp-for="TinhTrang" class="form-control">
+                <option value="Con hang">Còn hàng</option>
+                <option value="Het hang">Hết hàng</option>
+                <option value="Tam het">Tạm hết</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-success">Lưu thay đổi</button>
+    </form>
+}
+
+@section Scripts {
+    <script>
+        const filterMa = document.getElementById("filterMa");
+        const filterTen = document.getElementById("filterTen");
+        const select = document.getElementById("sachSelect");
+
+        function filterOptions() {
+            const ma = filterMa.value.toLowerCase();
+            const ten = filterTen.value.toLowerCase();
+            Array.from(select.options).forEach(opt => {
+                if (opt.value && !opt.disabled) {
+                    const text = opt.text.toLowerCase();
+                    opt.hidden = !(text.includes(ma) && text.includes(ten));
+                }
+            });
+        }
+
+        filterMa.addEventListener("input", filterOptions);
+        filterTen.addEventListener("input", filterOptions);
+    </script>
+}

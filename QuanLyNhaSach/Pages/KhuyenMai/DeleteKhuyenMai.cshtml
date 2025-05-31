@@ -1,0 +1,14 @@
+@page
+@model QuanLyNhaSach.Pages.KhuyenMai.DeleteKhuyenMaiModel
+
+<h2>🗑️ Xác nhận xoá khuyến mãi</h2>
+
+<div class="alert alert-warning">
+    Bạn có chắc chắn muốn xoá khuyến mãi <strong>@Model.MoTa</strong> (Mã: <code>@Model.MaKhuyenMai</code>) không?
+</div>
+
+<form method="post">
+    <input type="hidden" asp-for="MaKhuyenMai" />
+    <button type="submit" class="btn btn-danger">Xoá</button>
+    <a asp-page="/KhuyenMai/IndexKhuyenMai" class="btn btn-secondary ms-2">Huỷ</a>
+</form>

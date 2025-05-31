@@ -1,0 +1,36 @@
+﻿@page
+@model QuanLyNhaSach.Pages.Backup.CreateBackupModel
+@{
+    ViewData["Title"] = "Sao lưu Cơ sở dữ liệu";
+    var role = HttpContext.Session.GetString("CurrentRole");
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (role == "Quản lý")
+{
+    @if (!string.IsNullOrEmpty(Model.ThongBao))
+    {
+        <div class="alert @(Model.ThongBao.StartsWith("❌") ? "alert-danger" : "alert-success")" role="alert">
+            @Html.Raw(Model.ThongBao.Replace("\n", "<br />"))
+        </div>
+    }
+
+    <form method="post">
+        <p>Nhấn nút để sao lưu cơ sở dữ liệu.</p>
+        <button type="submit" class="btn btn-primary">💾 Bắt đầu Sao lưu</button>
+    </form>
+
+    <p class="mt-3">
+        <a asp-page="/Index">Quay lại Trang chủ</a>
+    </p>
+}
+else
+{
+    <div class="alert alert-warning" role="alert">
+        Bạn không có quyền truy cập chức năng này.
+    </div>
+    <p class="mt-3">
+        <a asp-page="/Index">Quay lại Trang chủ</a>
+    </p>
+}

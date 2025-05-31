@@ -1,0 +1,67 @@
+@page
+@model QuanLyNhaSach.Pages.Sach.CreateSachModel
+
+<h2>📚 Thêm Sách Mới</h2>
+
+@if (!string.IsNullOrEmpty(Model.ThongBao))
+{
+    <div class="alert alert-info">@Model.ThongBao</div>
+}
+
+<form method="post">
+    <div class="mb-3">
+        <label>Mã sách</label>
+        <input asp-for="MaSach" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Tiêu đề</label>
+        <input asp-for="TieuDe" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Giá bìa</label>
+        <input asp-for="GiaBia" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Mô tả</label>
+        <textarea asp-for="MoTa" class="form-control"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label>Lần tái bản</label>
+        <input asp-for="LanTaiBan" class="form-control" value="0" />
+    </div>
+
+    <div class="mb-3">
+        <label>Năm xuất bản</label>
+        <input asp-for="NamXuatBan" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Tình trạng</label>
+        <input asp-for="TinhTrang" class="form-control" value="Con hang" />
+    </div>
+
+    <div class="mb-3">
+        <label>Nhà xuất bản</label>
+        <select asp-for="MaNXB" asp-items="Model.NXBList" class="form-control">
+            <option value="">-- Chọn NXB --</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Thể loại</label>
+        <select asp-for="SelectedTheLoai" asp-items="Model.TheLoaiList" class="form-control" multiple size="6"></select>
+        <small class="text-muted">Nhấn Ctrl (Windows) hoặc Cmd (Mac) để chọn nhiều thể loại.</small>
+    </div>
+
+    <div class="mb-3">
+        <label>Tác giả</label>
+        <select asp-for="SelectedTacGia" asp-items="Model.TacGiaList" class="form-control" multiple size="6"></select>
+        <small class="text-muted">Nhấn Ctrl (Windows) hoặc Cmd (Mac) để chọn nhiều tác giả.</small>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">➕ Thêm sách</button>
+</form>
