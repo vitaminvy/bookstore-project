@@ -108,8 +108,15 @@ CREATE TABLE HoaDon(
     MaKhuyenMai varchar(10) FOREIGN KEY REFERENCES KHUYENMAI(MaKhuyenMai),
     TongGiam DECIMAL(10,2) DEFAULT 0,
     ThanhTien AS (TongTien - TongGiam) PERSISTED
-
 );
+ALTER TABLE HoaDon
+ALTER COLUMN MaNV VARCHAR(10) NULL;
+
+
+ALTER TABLE HoaDon
+ADD CONSTRAINT FK_HoaDon_MaNV
+FOREIGN KEY (MaNV) REFERENCES NhanVien(MaNV)
+ON DELETE SET NULL;
 
 -- 11. Chi tiết hóa đơn
 CREATE TABLE ChiTietHoaDon (
@@ -139,6 +146,14 @@ CREATE TABLE PhieuNhap (
     MaNV VARCHAR(10) FOREIGN KEY REFERENCES NhanVien(MaNV),
     MaNCC VARCHAR(10) FOREIGN KEY REFERENCES NhaCungCap(MaNCC)
 );
+
+ALTER TABLE PhieuNhap
+ALTER COLUMN MaNV VARCHAR(10) NULL;
+
+ALTER TABLE PhieuNhap
+ADD CONSTRAINT FK_PhieuNhap_MaNV
+FOREIGN KEY (MaNV) REFERENCES NhanVien(MaNV)
+ON DELETE SET NULL;
 
 -- 14. Chi tiết phiếu nhập
 CREATE TABLE ChiTietPhieuNhap (
@@ -452,12 +467,26 @@ END
 
 --15.Stored procedure Xoá Nhân Viên
 GO
-CREATE PROCEDURE sp_XoaNhanVien
+CREATE OR ALTER PROCEDURE sp_XoaNhanVien
     @MaNV VARCHAR(10)
 AS
 BEGIN
-    DELETE FROM NhanVien WHERE MaNV = @MaNV;
-END
+    SET NOCOUNT ON;
+
+    -- Xóa liên kết trong Hóa đơn
+    UPDATE HoaDon
+    SET MaNV = NULL
+    WHERE MaNV = @MaNV;
+
+    -- Xoá liên kết trong Phiếu Nhập
+    UPDATE PhieuNhap
+    SET MaNV = NULL
+    WHERE MaNV = @MaNV;
+
+    -- Xóa nhân viên
+    DELETE FROM NhanVien
+    WHERE MaNV = @MaNV;
+END;
 
 --16.Stored procedure Them khach hang
 GO
@@ -716,11 +745,9 @@ SELECT
     s.SoLuongTon
 FROM Sach s
 
-
 -- 3. Báo cáo sách bán chạy 
 CREATE VIEW vw_BestSeller_Sach AS
 SELECT 
-    ROW_NUMBER() OVER (ORDER BY SUM(cthd.SoLuong) DESC, s.MaSach) AS STT,
     s.MaSach,
     s.TieuDe,
     SUM(cthd.SoLuong) AS TongBan
@@ -730,11 +757,9 @@ FROM
 GROUP BY 
     s.MaSach, s.TieuDe
 
-
 -- 4. Bao cáo tồn kho theo chi tiết nhập/xuất
-CREATE OR ALTER VIEW vw_TonKhoChiTiet AS
-SELECT
-    ROW_NUMBER() OVER (ORDER BY (ISNULL(SUM(n.SoLuong), 0) - ISNULL(SUM(c.SoLuong), 0)) DESC, s.MaSach) AS STT,
+CREATE VIEW vw_TonKhoChiTiet AS
+SELECT 
     s.MaSach,
     s.TieuDe,
     ISNULL(SUM(n.SoLuong), 0) AS TongNhap,
@@ -746,7 +771,6 @@ FROM
     LEFT JOIN ChiTietHoaDon c ON s.MaSach = c.MaSach
 GROUP BY 
     s.MaSach, s.TieuDe
-
 
 -- 5. Báo cáo doanh số theo thể loại
 CREATE VIEW vw_DoanhSo_TheLoai AS
