@@ -694,7 +694,122 @@ BEGIN
     DEALLOCATE cur;
 END;
 
-EXEC sp_CapNhatTongTienKhachHang;
+
+-- CHƯƠNG 5: REPORT
+-- 1. Báo cáo doanh thu theo tháng và năm
+CREATE VIEW vw_DoanhSoBanHang_ThangNam AS
+SELECT
+    YEAR(NgayLap) AS Nam,
+    MONTH(NgayLap) AS Thang,
+    SUM(TongTien) AS TongDoanhThu,
+    SUM(TongGiam) AS TongGiamGia,
+    SUM(ThanhTien) AS DoanhThuSauGiam,
+    COUNT(MaHD) AS SoHoaDon
+FROM HoaDon
+GROUP BY YEAR(NgayLap), MONTH(NgayLap)
+
+-- 2. Báo cáo tổng hợp tồn kho sách
+CREATE VIEW vw_TonKhoSach AS
+SELECT 
+    s.MaSach,
+    s.TieuDe,
+    s.SoLuongTon
+FROM Sach s
+
+-- 3. Báo cáo sách bán chạy 
+CREATE VIEW vw_BestSeller_Sach AS
+SELECT 
+    s.MaSach,
+    s.TieuDe,
+    SUM(cthd.SoLuong) AS TongBan
+FROM 
+    ChiTietHoaDon cthd
+    JOIN Sach s ON cthd.MaSach = s.MaSach
+GROUP BY 
+    s.MaSach, s.TieuDe
+
+-- 4. Bao cáo tồn kho theo chi tiết nhập/xuất
+CREATE VIEW vw_TonKhoChiTiet AS
+SELECT 
+    s.MaSach,
+    s.TieuDe,
+    ISNULL(SUM(n.SoLuong), 0) AS TongNhap,
+    ISNULL(SUM(c.SoLuong), 0) AS TongBan,
+    ISNULL(SUM(n.SoLuong), 0) - ISNULL(SUM(c.SoLuong), 0) AS TonKho
+FROM 
+    Sach s
+    LEFT JOIN ChiTietPhieuNhap n ON s.MaSach = n.MaSach
+    LEFT JOIN ChiTietHoaDon c ON s.MaSach = c.MaSach
+GROUP BY 
+    s.MaSach, s.TieuDe
+
+-- 5. Báo cáo doanh số theo thể loại
+CREATE VIEW vw_DoanhSo_TheLoai AS
+SELECT 
+    tl.MaTheLoai,
+    tl.TenTheLoai,
+    SUM(cthd.SoLuong) AS TongBan
+FROM 
+    ChiTietHoaDon cthd
+    JOIN Sach_TheLoai stl ON cthd.MaSach = stl.MaSach
+    JOIN TheLoai tl ON stl.MaTheLoai = tl.MaTheLoai
+GROUP BY 
+    tl.MaTheLoai, tl.TenTheLoai
+
+-- 6. Báo cáo tổng hợp nhập sách theo tháng/năm
+CREATE VIEW vw_NhapSach_ThangNam AS
+SELECT
+    YEAR(pn.NgayNhap) AS Nam,
+    MONTH(pn.NgayNhap) AS Thang,
+    SUM(ctpn.SoLuong) AS TongSoLuongNhap,
+    SUM(ctpn.SoLuong * ctpn.GiaNhap) AS TongTienNhap
+FROM 
+    PhieuNhap pn
+    JOIN ChiTietPhieuNhap ctpn ON pn.MaPhieuNhap = ctpn.MaPhieuNhap
+GROUP BY 
+    YEAR(pn.NgayNhap), MONTH(pn.NgayNhap)
+
+
+-- 7. Báo cáo doanh số theo nhân viên
+CREATE VIEW vw_DoanhSo_NhanVien AS
+SELECT
+    nv.MaNV,
+    nv.HoTen,
+    COUNT(hd.MaHD) AS SoHoaDon,
+    SUM(hd.ThanhTien) AS TongDoanhSo
+FROM 
+    NhanVien nv
+    LEFT JOIN HoaDon hd ON nv.MaNV = hd.MaNV
+GROUP BY
+    nv.MaNV, nv.HoTen
+
+-- 8. Báo cáo doanh số theo khách hàng
+CREATE VIEW vw_DoanhSo_KhachHang AS
+SELECT
+    kh.MaKH,
+    kh.HoTen,
+    kh.SDT,
+    COUNT(hd.MaHD) AS SoLanMua,
+    SUM(hd.ThanhTien) AS TongTienMua
+FROM 
+    KhachHang kh
+    LEFT JOIN HoaDon hd ON kh.MaKH = hd.MaKH
+GROUP BY
+    kh.MaKH, kh.HoTen, kh.SDT
+
+-- 10. Báo cáo khuyến mãi đang hoạt động
+CREATE VIEW vw_KhuyenMai_HoatDong AS
+SELECT 
+    MaKhuyenMai,
+    MoTa,
+    NgayBatDau,
+    NgayKetThuc,
+    PhanTramGiamGia
+FROM KhuyenMai
+WHERE NgayBatDau <= CAST(GETDATE() AS DATE) 
+  AND NgayKetThuc >= CAST(GETDATE() AS DATE) 
+  AND isDeleted = 0
+
 
 --F. PHÂN QUYỀN TÀI KHOẢN DTB
 --1. Tạo login cho nhóm Nhân viên và Quản Lý, ReadOnly làm tài khoản mặc định
