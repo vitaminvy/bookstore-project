@@ -149,7 +149,7 @@ namespace QuanLyNhaSach.Pages.Sach
                 cmd.Parameters.AddWithValue("@MaSach", MaSach);
 
                 await cmd.ExecuteNonQueryAsync();
-                TempData["ThongBaoPage"] = $"✅ Xóa (ẩn) sách '{MaSach}' thành công!";
+                TempData["ThongBaoPage"] = $"✅ Xóa sách '{MaSach}' thành công!";
             }
             catch (SqlException sqlEx)
             {
