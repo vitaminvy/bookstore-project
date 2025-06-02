@@ -13,7 +13,6 @@ namespace QuanLyNhaSach.Pages.Sach
         {
             _config = config;
             connStr = _config.GetConnectionString("ManagerConnection");
-
         }
         [BindProperty] public string MaSach { get; set; } = "";
         [BindProperty] public string TieuDe { get; set; } = "";
@@ -21,7 +20,7 @@ namespace QuanLyNhaSach.Pages.Sach
         [BindProperty] public string? MoTa { get; set; }
         [BindProperty] public int LanTaiBan { get; set; } = 0;
         [BindProperty] public int? NamXuatBan { get; set; }
-        [BindProperty] public string TinhTrang { get; set; } = "Còn hàng";
+        [BindProperty] public string TinhTrang { get; set; } = "Con hang";
         [BindProperty] public string? MaNXB { get; set; }
         [BindProperty] public List<string> SelectedTheLoai { get; set; } = new();
         [BindProperty] public List<string> SelectedTacGia { get; set; } = new();
