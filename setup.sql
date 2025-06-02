@@ -716,9 +716,11 @@ SELECT
     s.SoLuongTon
 FROM Sach s
 
+
 -- 3. Báo cáo sách bán chạy 
 CREATE VIEW vw_BestSeller_Sach AS
 SELECT 
+    ROW_NUMBER() OVER (ORDER BY SUM(cthd.SoLuong) DESC, s.MaSach) AS STT,
     s.MaSach,
     s.TieuDe,
     SUM(cthd.SoLuong) AS TongBan
@@ -728,9 +730,11 @@ FROM
 GROUP BY 
     s.MaSach, s.TieuDe
 
+
 -- 4. Bao cáo tồn kho theo chi tiết nhập/xuất
-CREATE VIEW vw_TonKhoChiTiet AS
-SELECT 
+CREATE OR ALTER VIEW vw_TonKhoChiTiet AS
+SELECT
+    ROW_NUMBER() OVER (ORDER BY (ISNULL(SUM(n.SoLuong), 0) - ISNULL(SUM(c.SoLuong), 0)) DESC, s.MaSach) AS STT,
     s.MaSach,
     s.TieuDe,
     ISNULL(SUM(n.SoLuong), 0) AS TongNhap,
@@ -742,6 +746,7 @@ FROM
     LEFT JOIN ChiTietHoaDon c ON s.MaSach = c.MaSach
 GROUP BY 
     s.MaSach, s.TieuDe
+
 
 -- 5. Báo cáo doanh số theo thể loại
 CREATE VIEW vw_DoanhSo_TheLoai AS
