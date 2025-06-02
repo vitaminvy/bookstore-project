@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Threading.Tasks; // Thêm async cho OnGet nếu cần, OnPost đã có
-
+// File cũ 
 namespace QuanLyNhaSach.Pages.Sach
 {
     public class CreateSachModel : PageModel
