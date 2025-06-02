@@ -75,7 +75,7 @@ namespace QuanLyNhaSach.Pages.Sach
                 await conn.OpenAsync();
 
                 // SỬA Ở ĐÂY: Bỏ điều kiện "WHERE (IsDeleted = 0 OR IsDeleted IS NULL)"
-                var cmdList = new SqlCommand("SELECT MaSach, TieuDe FROM Sach ORDER BY TieuDe", conn);
+                var cmdList = new SqlCommand("SELECT MaSach, TieuDe FROM  Sach WHERE isDeleted = 0 ORDER BY TieuDe", conn);
                 using (var readerList = await cmdList.ExecuteReaderAsync())
                 {
                     var tempList = new List<SelectListItem>();
@@ -95,7 +95,7 @@ namespace QuanLyNhaSach.Pages.Sach
                 {
                     MaSach = id; // Gán vào BindProperty để form POST có thể dùng
                     // SỬA Ở ĐÂY: Bỏ điều kiện "AND (IsDeleted = 0 OR IsDeleted IS NULL)"
-                    var cmdDetail = new SqlCommand("SELECT TieuDe FROM Sach WHERE MaSach = @MaSachParam", conn);
+                    var cmdDetail = new SqlCommand("SELECT TieuDe FROM Sach WHERE MaSach = @MaSachParam AND isDeleted = 0", conn);
                     cmdDetail.Parameters.AddWithValue("@MaSachParam", id);
                     var tieuDeResult = await cmdDetail.ExecuteScalarAsync();
                     HoTenSachCanXoa = tieuDeResult?.ToString(); // Sử dụng thuộc tính HoTenSachCanXoa
