@@ -34,42 +34,56 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     @if (role == "Quản lý")
+                                  
                                     {
                                         <li><a class="dropdown-item" asp-page="/Sach/CreateTacGia">➕ Thêm tác giả</a></li>
                                         <li><a class="dropdown-item" asp-page="/Sach/CreateTheLoai">➕ Thêm thể loại</a></li>
 
-
-                                        <li><a class="dropdown-item" asp-page="/Sach/Create">➕ Thêm sách</a></li>
-                                        <li><a class="dropdown-item" asp-page="/Sach/Edit" asp-route-id="SA101"> Sửa sách</a></li>
-                                        <li><a class="dropdown-item" asp-page="/Sach/Delete">🗑 Xóa sách</a></li>
                                         <li><a class="dropdown-item" asp-page="/Sach/Search">🔍 Tìm kiếm sách</a></li>
-
-
+                                        <li><a class="dropdown-item" asp-page="/Sach/Create">➕ Thêm sách</a></li>
+                                        <li><a class="dropdown-item" asp-page="/Sach/Edit" asp-route-id="SA101"> ⚙️Sửa sách</a></li>
+                                        <li><a class="dropdown-item" asp-page="/Sach/Delete">🗑 Xóa sách</a></li>
 
                                         <li><a class="dropdown-item" asp-page="/Sach/Import">📚 Nhập sách</a></li>
                                         <li><a class="dropdown-item" asp-page="/Sach/ViewHistory">📑Nhật kí nhập sách</a></li>
+                                        <li><hr class="dropdown-divider" /></li>
 
+
+
+                                        <li><a class="dropdown-item" asp-page="/KhuyenMai/CreateKhuyenMai">🛒 Thêm khuyến Mãi</a></li>
+                                        <li><a class="dropdown-item" asp-page="/KhuyenMai/IndexKhuyenMai">🛒  Xoá & Sửa khuyến mãi</a></li>
+                                        <li><hr class="dropdown-divider" /></li>
+
+
+                                        <li><a class="dropdown-item" asp-page="/HoaDon/CreateHoaDon">🧾 Hóa đơn</a></li>
+                                        <li><hr class="dropdown-divider" /></li>
+
+
+                                        <li><a class="dropdown-item" asp-page="/KhachHang/CreateKhachHang">👤 Thêm khách hàng</a></li>
+                                        <li><hr class="dropdown-divider" /></li>
 
 
 
                                         <li><a class="dropdown-item" asp-page="/NhanVien/CreateNhanVien">👥Thêm Nhân Viên</a></li>
                                         <li><a class="dropdown-item" asp-page="/NhanVien/EditNhanVien">👥Chỉnh sửa thông tin Nhân Viên</a></li>
                                         <li><a class="dropdown-item" asp-page="/NhanVien/Log">📑Nhật kí chỉnh sửa danh sách Nhân Viên</a></li>
-                                        <li><a class="dropdown-item" asp-page="/KhuyenMai/CreateKhuyenMai">🛒 Thêm khuyến Mãi</a></li>
+                                       
+
+                                        <li><hr class="dropdown-divider" /></li>
 
 
                                         <li><a class="dropdown-item" asp-page="/Nhap/ImportAllTables">📊 Nhập dữ liệu vào các bảng</a></li>
                                         <li><a class="dropdown-item" asp-page="/Xuat/ExportAllTables">📁 Xuất dữ liệu từ bảng</a></li>
                                         <li><a class="dropdown-item" asp-page="/Backup/CreateBackup">💾 Sao lưu Cơ sở dữ liệu</a></li>
 
-
                                         <li><hr class="dropdown-divider" /></li>
                                     }
 
-                                    @if (role == "Nhân viên" || role == "Quản lý")
+                                    @if (role == "Nhân viên")
                                     {
                                         <li><a class="dropdown-item" asp-page="/Sach/Search">🔍 Tìm kiếm sách</a></li>
-                                        <li><a class="dropdown-item" asp-page="/KhuyenMai/IndexKhuyenMai">🛒  Danh sách khuyến mãi</a></li>
+                                    
+                                        <li><a class="dropdown-item" asp-page="/KhuyenMai/IndexKhuyenMai_NhanVien">🛒  Danh sách khuyến mãi</a></li>
 
                                         <li><a class="dropdown-item" asp-page="/HoaDon/CreateHoaDon">🧾 Hóa đơn</a></li>
                                         <li><a class="dropdown-item" asp-page="/KhachHang/CreateKhachHang">👤 Thêm khách hàng</a></li>
