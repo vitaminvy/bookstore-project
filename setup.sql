@@ -307,23 +307,18 @@ BEGIN
 END
 
 --8.Stored procedure xoá sách--   
-GO
-CREATE PROCEDURE sp_XoaSach
+go
+CREATE OR ALTER  PROCEDURE sp_XoaSach
     @MaSach VARCHAR(10)
 AS
 BEGIN
-    -- Xóa liên kết thể loại
-    DELETE FROM Sach_TheLoai WHERE MaSach = @MaSach;
+    SET NOCOUNT ON;
 
-    -- Xóa liên kết tác giả
-    DELETE FROM Sach_TacGia WHERE MaSach = @MaSach;
-
-    -- Xóa sách chính
-    DELETE FROM Sach WHERE MaSach = @MaSach;
+    IF EXISTS (SELECT 1 FROM Sach WHERE MaSach = @MaSach AND isDeleted = 0)
+    BEGIN
+        UPDATE Sach SET isDeleted = 1 WHERE MaSach = @MaSach;
+    END
 END
-
-
-
 
 --9. Stored procedure Tìm sách
 GO
