@@ -77,11 +77,6 @@ CREATE TABLE KhachHang (
         CHECK (Hang IN (N'VIP', N'Thường', N'Mới')) --Thêm xếp hạng để dùng cusor
 );
 
-
-
-
-
-
 -- 8. Nhân viên
 CREATE TABLE NhanVien (
     MaNV VARCHAR(10) PRIMARY KEY,
@@ -697,10 +692,8 @@ BEGIN
     ) h ON k.MaKH = h.MaKH;
 END;
 
-
 --E. TẠO FUNCTION
 --1. Function xem khuyến mãi --
-
 
 GO
 CREATE FUNCTION fn_GetMaKhuyenMaiHienTai()
@@ -900,10 +893,3 @@ GRANT EXECUTE ON TYPE::dbo.ChiTietHoaDonType TO us_employee;
 GO
 GRANT EXECUTE ON OBJECT::dbo.sp_ThemKhachHang TO us_employee;
 GO
-
-
-select *
-from NhanVien
-
-select *
-from KhachHang
