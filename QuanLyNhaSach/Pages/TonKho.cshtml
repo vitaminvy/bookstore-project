@@ -12,20 +12,17 @@
         <tr>
             <th>Mã sách</th>
             <th>Tiêu đề</th>
-            <th>Tổng nhập</th>
-            <th>Tổng bán</th>
             <th>Tồn kho</th>
         </tr>
     </thead>
     <tbody>
     @foreach (var item in Model.TonKhoList)
     {
+        <!-- các props -->
         <tr>
             <td>@item.MaSach</td>
             <td>@item.TieuDe</td>
-            <td>@item.TongNhap</td>
-            <td>@item.TongBan</td>
-            <td>@item.TonKho</td>
+            <td>@item.SoLuongTon</td>
         </tr>
     }
     </tbody>
