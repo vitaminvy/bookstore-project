@@ -169,12 +169,21 @@ CREATE TABLE ChiTietPhieuNhap (
 );
 
 --16.Table ghi lại lịch sử thêm, xoá, sửa Nhân Viên
+-- CREATE TABLE LogNhanVien (
+--     LogID INT IDENTITY PRIMARY KEY,
+--     MaNV VARCHAR(10),
+--     HanhDong NVARCHAR(20),         -- 'Thêm', 'Sửa', 'Xoá'
+--     ThoiGian DATETIME DEFAULT GETDATE(),
+--     GhiChu NVARCHAR(255)
+-- );
+
 CREATE TABLE LogNhanVien (
-    LogID INT IDENTITY PRIMARY KEY,
-    MaNV VARCHAR(10),
+    MaNV1 VARCHAR(10),  -- Nhân viên thực hiện hành động
+    MaNV2 VARCHAR(10),  -- Nhân viên bị ảnh hưởng
     HanhDong NVARCHAR(20),         -- 'Thêm', 'Sửa', 'Xoá'
     ThoiGian DATETIME DEFAULT GETDATE(),
     GhiChu NVARCHAR(255)
+    PRIMARY KEY (MaNV1, MaNV2),
 );
 
 --B.TẠO RÀNG BUỘC
