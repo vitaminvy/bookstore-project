@@ -73,7 +73,7 @@ CREATE TABLE KhachHang (
     SDT NVARCHAR(20),
     Email NVARCHAR(100),
     TongTien DECIMAL(18,2) NULL,
-    Hang NVARCHAR(20) NOT NULL
+    Hang NVARCHAR(20) NULL
         CHECK (Hang IN (N'VIP', N'Thường', N'Mới')) --Thêm xếp hạng để dùng cusor
 );
 
@@ -174,12 +174,21 @@ CREATE TABLE ChiTietPhieuNhap (
 );
 
 --16.Table ghi lại lịch sử thêm, xoá, sửa Nhân Viên
+-- CREATE TABLE LogNhanVien (
+--     LogID INT IDENTITY PRIMARY KEY,
+--     MaNV VARCHAR(10),
+--     HanhDong NVARCHAR(20),         -- 'Thêm', 'Sửa', 'Xoá'
+--     ThoiGian DATETIME DEFAULT GETDATE(),
+--     GhiChu NVARCHAR(255)
+-- );
+
 CREATE TABLE LogNhanVien (
-    LogID INT IDENTITY PRIMARY KEY,
-    MaNV VARCHAR(10),
+    MaNV1 VARCHAR(10),  -- Nhân viên thực hiện hành động
+    MaNV2 VARCHAR(10),  -- Nhân viên bị ảnh hưởng
     HanhDong NVARCHAR(20),         -- 'Thêm', 'Sửa', 'Xoá'
     ThoiGian DATETIME DEFAULT GETDATE(),
     GhiChu NVARCHAR(255)
+    PRIMARY KEY (MaNV1, MaNV2),
 );
 
 --B.TẠO RÀNG BUỘC
@@ -187,9 +196,6 @@ CREATE TABLE LogNhanVien (
 ALTER TABLE Sach
 ADD CONSTRAINT CK_Sach_GiaBia
 CHECK (GiaBia >= 1000 AND GiaBia % 500 = 0);
-
-
-
 
 --2.Ràng buộc ngày khuyến bắt đầu <= ngày kết thúc
 ALTER TABLE KhuyenMai
@@ -679,6 +685,7 @@ BEGIN
 END;
 
 -- Trigger cập nhật tổng tiền 
+GO
 CREATE TRIGGER trg_CapNhatTongTien_AfterInsertUpdate
 ON HoaDon
 AFTER INSERT, UPDATE, DELETE
