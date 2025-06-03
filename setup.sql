@@ -73,7 +73,7 @@ CREATE TABLE KhachHang (
     SDT NVARCHAR(20),
     Email NVARCHAR(100),
     TongTien DECIMAL(18,2) NULL,
-    Hang NVARCHAR(20) NOT NULL
+    Hang NVARCHAR(20) NULL
         CHECK (Hang IN (N'VIP', N'Thường', N'Mới')) --Thêm xếp hạng để dùng cusor
 );
 
@@ -182,9 +182,6 @@ CREATE TABLE LogNhanVien (
 ALTER TABLE Sach
 ADD CONSTRAINT CK_Sach_GiaBia
 CHECK (GiaBia >= 1000 AND GiaBia % 500 = 0);
-
-
-
 
 --2.Ràng buộc ngày khuyến bắt đầu <= ngày kết thúc
 ALTER TABLE KhuyenMai
@@ -674,6 +671,7 @@ BEGIN
 END;
 
 -- Trigger cập nhật tổng tiền 
+GO
 CREATE TRIGGER trg_CapNhatTongTien_AfterInsertUpdate
 ON HoaDon
 AFTER INSERT, UPDATE, DELETE
