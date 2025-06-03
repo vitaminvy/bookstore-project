@@ -72,8 +72,15 @@ CREATE TABLE KhachHang (
     DiaChi NVARCHAR(200),
     SDT NVARCHAR(20),
     Email NVARCHAR(100),
-    TongTien DECIMAL(18,2) NULL
+    TongTien DECIMAL(18,2) NULL,
+    Hang NVARCHAR(20) NOT NULL
+        CHECK (Hang IN (N'VIP', N'Thường', N'Mới')) --Thêm xếp hạng để dùng cusor
 );
+
+
+
+
+
 
 -- 8. Nhân viên
 CREATE TABLE NhanVien (
@@ -671,6 +678,25 @@ BEGIN
     FROM deleted;
 END;
 
+-- Trigger cập nhật tổng tiền 
+CREATE TRIGGER trg_CapNhatTongTien_AfterInsertUpdate
+ON HoaDon
+AFTER INSERT, UPDATE, DELETE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Cập nhật lại tổng tiền của những khách hàng có thay đổi
+    UPDATE k
+    SET k.TongTien = ISNULL(h.TongTien, 0)
+    FROM KhachHang k
+    INNER JOIN (
+        SELECT MaKH, SUM(ThanhTien) AS TongTien
+        FROM HoaDon
+        GROUP BY MaKH
+    ) h ON k.MaKH = h.MaKH;
+END;
+
 
 --E. TẠO FUNCTION
 --1. Function xem khuyến mãi --
@@ -685,39 +711,45 @@ RETURN
     FROM KhuyenMai
     WHERE CAST(GETDATE() AS DATE) BETWEEN NgayBatDau AND NgayKetThuc;
 
-
+-- F. CURSOR
+-- Trong procedurse p_PhanLoaiKhachHang có sử dụng cursor để duyệt quả bảng Khách hàng
 GO
-CREATE PROCEDURE sp_CapNhatTongTienKhachHang
+CREATE OR ALTER PROCEDURE sp_PhanLoaiKhachHang
 AS
 BEGIN
-    DECLARE @MaKH VARCHAR(10), @TongTien DECIMAL(18,2);
+    DECLARE @MaKH VARCHAR(10)
+    DECLARE @TongTien DECIMAL(18,2)
+    DECLARE @Hang NVARCHAR(20)
 
-    -- Cursor để duyệt tất cả khách hàng
     DECLARE cur CURSOR FOR
-    SELECT MaKH FROM KhachHang;
+        SELECT MaKH, TongTien FROM KhachHang;
 
     OPEN cur;
-    FETCH NEXT FROM cur INTO @MaKH;
+    FETCH NEXT FROM cur INTO @MaKH, @TongTien;
 
     WHILE @@FETCH_STATUS = 0
     BEGIN
-        -- Tính tổng tiền của khách hàng từ bảng Hóa đơn
-        SELECT @TongTien = ISNULL(SUM(ThanhTien), 0)
-        FROM HoaDon
-        WHERE MaKH = @MaKH;
+        -- Chỉ phân loại dựa vào giá trị đã có
+        IF @TongTien >= 10000000
+            SET @Hang = N'VIP';
+        ELSE IF @TongTien >= 2000000
+            SET @Hang = N'Thường';
+        ELSE
+            SET @Hang = N'Mới';
 
-        -- Cập nhật vào cột TongTien của khách hàng
+        -- Cập nhật Hạng, KHÔNG cập nhật lại TongTien
         UPDATE KhachHang
-        SET TongTien = @TongTien
+        SET Hang = @Hang
         WHERE MaKH = @MaKH;
 
-        FETCH NEXT FROM cur INTO @MaKH;
+        FETCH NEXT FROM cur INTO @MaKH, @TongTien;
     END;
 
     CLOSE cur;
     DEALLOCATE cur;
 END;
 
+EXEC sp_PhanLoaiKhachHang;
 
 -- CHƯƠNG 5: REPORT
 -- 1. Báo cáo doanh thu theo tháng và năm
@@ -869,3 +901,9 @@ GO
 GRANT EXECUTE ON OBJECT::dbo.sp_ThemKhachHang TO us_employee;
 GO
 
+
+select *
+from NhanVien
+
+select *
+from KhachHang
