@@ -77,6 +77,8 @@ CREATE TABLE KhachHang (
         CHECK (Hang IN (N'VIP', N'Thường', N'Mới')) --Thêm xếp hạng để dùng cusor
 );
 
+ALTER TABLE KhachHang 
+ADD CONSTRAINT UQ_KhachHang_SDT UNIQUE (SDT);
 -- 8. Nhân viên
 CREATE TABLE NhanVien (
     MaNV VARCHAR(10) PRIMARY KEY,
@@ -88,6 +90,9 @@ CREATE TABLE NhanVien (
     CCCD NVARCHAR(12),
     IsDeleted BIT DEFAULT 0
 );
+ALTER TABLE NhanVien
+ADD CONSTRAINT UQ_NhanVien_CCCD UNIQUE (CCCD);
+
 
 -- 9. Khuyến mãi
 CREATE TABLE KhuyenMai (
@@ -893,3 +898,4 @@ GRANT EXECUTE ON TYPE::dbo.ChiTietHoaDonType TO us_employee;
 GO
 GRANT EXECUTE ON OBJECT::dbo.sp_ThemKhachHang TO us_employee;
 GO
+
